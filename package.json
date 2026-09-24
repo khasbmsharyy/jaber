@@ -1,0 +1,9 @@
+{
+  "name": "jaber-linear-algebra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive linear algebra course with PDF question extraction",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "extract": "node server.js --extract"},
+  "dependencies": {"express": "^4.21.2", "pdf-parse": "^1.1.1"}
+}
